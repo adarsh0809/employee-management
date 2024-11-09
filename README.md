@@ -15,19 +15,19 @@ Error Handling: Custom middleware for error handling in Express.
 Tech Stack
 Frontend
 - React
--React Router DOM
--Axios
--Tailwind CSS
--React Table
--Backend
--Node.js
--Express.js
--MongoDB
--Mongoose
--Cloudinary (for image storage)
--JSON Web Tokens (JWT) for authentication
--Multer and multer-storage-cloudinary for file uploads
--dotenv for environment variables
+- React Router DOM
+- Axios
+- Tailwind CSS
+- React Table
+- Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Cloudinary (for image storage)
+- JSON Web Tokens (JWT) for authentication
+- Multer and multer-storage-cloudinary for file uploads
+- dotenv for environment variables
 
 Getting Started
 
@@ -42,26 +42,23 @@ Create a .env file in the root of the project with the following keys:
 env
 Copy code
 # MongoDB
--MONGO_URI=<your_mongo_db_uri>
+- MONGO_URI=<your_mongo_db_uri>
 
 # Cloudinary
--CLOUD_NAME=<your_cloudinary_cloud_name>
--CLOUD_API_KEY=<your_cloudinary_api_key>
--CLOUD_API_SECRET=<your_cloudinary_api_secret>
+- CLOUD_NAME=<your_cloudinary_cloud_name>
+
+- CLOUD_API_KEY=<your_cloudinary_api_key>
+
+- CLOUD_API_SECRET=<your_cloudinary_api_secret>
 
 # JWT
--JWT_SECRET=<your_jwt_secret>
+- JWT_SECRET=<your_jwt_secret>
 
 
-npm install
-Install frontend dependencies:
-
-bash
-Copy code
-cd ../client
 npm install
 
 Running the Application
+
 Start the backend server:
 
 bash
@@ -78,11 +75,11 @@ The backend server will run on http://localhost:3000, and the frontend will run 
 
 Dependencies
 
---Backend: bcrypt, bcryptjs, cloudinary, cors, dotenv, express, jsonwebtoken, mongoose, multer, multer-storage-cloudinary, validator
---Frontend: axios, react, react-dom, react-icons, react-router-dom, react-table, tailwindcss, vite
+- Backend: bcrypt, bcryptjs, cloudinary, cors, dotenv, express, jsonwebtoken, mongoose, multer, multer-storage-cloudinary, validator
+- Frontend: axios, react, react-dom, react-icons, react-router-dom, react-table, tailwindcss, vite
 
 Deployment
---To deploy, ensure that all environment variables are configured for production. You can use platforms like Heroku for the backend and Vercel or Netlify for the frontend.
+- To deploy, ensure that all environment variables are configured for production. You can use platforms like Heroku for the backend and Vercel or Netlify for the frontend.
 
 License
 This project is licensed under the ISC License.
